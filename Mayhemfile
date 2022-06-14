@@ -1,6 +1,6 @@
-project: rnshah9/cineform-sdk
+project: cineform-sdk
 target: waveletdemo
 
 cmds:
-  - cmd: /repo/build/WaveletDemo @@
+  - cmd: /repo/build/WaveletDemo /test.pgm
     filepath: /test.pgm
