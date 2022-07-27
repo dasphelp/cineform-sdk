@@ -2,5 +2,4 @@ project: cineform-sdk
 target: waveletdemo
 
 cmds:
-  - cmd: /repo/build/WaveletDemo /test.pgm
-    filepath: /test.pgm
+  - cmd: /WaveletDemo @@
