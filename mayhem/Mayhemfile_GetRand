@@ -1,0 +1,5 @@
+project: cineform-sdk
+target: getrange
+
+cmds:
+  - cmd: /fuzz_GetRand

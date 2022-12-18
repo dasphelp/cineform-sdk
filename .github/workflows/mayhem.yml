@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_GetRand
+          - mayhem/Mayhemfile_WaveletDemo
 
     steps:
       - uses: actions/checkout@v3
