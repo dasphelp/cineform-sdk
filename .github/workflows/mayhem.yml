@@ -10,6 +10,7 @@ env:
 
 jobs:
   build:
+    permissions: write-all
     name: '${{ matrix.os }} shared=${{ matrix.shared }} ${{ matrix.build_type }}'
     runs-on: ${{ matrix.os }}
     strategy:
@@ -61,6 +62,7 @@ jobs:
         mayhemfile:
           - mayhem/Mayhemfile_GetRand
           - mayhem/Mayhemfile_WaveletDemo
+          - mayhem/Mayhemfile_TestCFHD
 
     steps:
       - uses: actions/checkout@v3
