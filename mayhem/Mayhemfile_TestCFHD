@@ -1,1 +1,5 @@
+project: cineform-sdk
+target: TestCFHD
 
+cmds:
+  - cmd: /TestCFHD -E @@
