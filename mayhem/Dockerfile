@@ -11,4 +11,5 @@ RUN clang++ /repo/mayhem/fuzz_GetRand.cpp -fsanitize=fuzzer,address /repo/Exampl
 
 FROM ubuntu:20.04 as package
 COPY --from=builder /repo/build/WaveletDemo /
+COPY --from=builder /repo/build/TestCFHD /
 COPY --from=builder /fuzz /fuzz_GetRand
